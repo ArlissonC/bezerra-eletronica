@@ -23,5 +23,19 @@ const scrollReveal = ScrollReveal({
   reset: true,
 });
 
-scrollReveal.reveal(`.textos-intro h1, .textos-intro p, .textos-intro a button, .introducao .scroll, .servicos h2, .boxs .box, .sobre h2, .sobre > p, .boxs-sobre .box-sobre, .placas img, .lista-placas h2, .modelos, .btn-lista-placas`, { interval: 100 })
+scrollReveal.reveal(`.textos-intro h1, 
+.textos-intro p, 
+.textos-intro a button, 
+.introducao .scroll, 
+.servicos h2, 
+.boxs 
+.box, 
+.sobre h2, 
+.sobre > p, 
+.boxs-sobre 
+.box-sobre, 
+.placas img, 
+.lista-placas h2, 
+.modelos, 
+.btn-lista-placas`, { interval: 100 })
 
